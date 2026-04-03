@@ -1,6 +1,7 @@
 from src.models.map_position import MapPosition
 from src.enums.enums import DirectionEnum
 
+
 class Robot:
     """
     A Robot in a 2D space
@@ -25,16 +26,25 @@ class Robot:
     def get_name(self) -> str:
         """
         Returns robot name
+
+        :return: The Rsobot name
         """
         return self.name
 
     def get_current_pos(self) -> MapPosition:
         """
         Returns current Robot position in space
+
+        :return: The Robot position in space
         """
         return self.pos
     
     def get_current_direction(self) -> DirectionEnum:
+        """
+        Returns current Robot direction
+
+        :return: The Robot direction in space
+        """
         return self.direction
 
     def update_current_pos(self, position: MapPosition) -> None:

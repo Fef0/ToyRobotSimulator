@@ -40,6 +40,8 @@ class RobotSimulator():
         Transform a raw command into a real command
 
         :param raw_command: The raw command
+        :raises InvaldCommandException: If the command does not exist
+        :return: A formatted command
         """
 
         # Clean the string
@@ -79,6 +81,13 @@ class RobotSimulator():
                 raise InvalidCommandException(msg)
 
     def _parse_commands_file(self, sim_commands_file: str) -> List[Command]:
+        """
+        Parse the commands from a file and returns a list of formatted commands
+
+        :param sim_commands_file: File with commands
+        :return: A list of formatted commands
+        """
+
         commands = []
 
         # Open file and populate commands
@@ -93,6 +102,13 @@ class RobotSimulator():
         return commands
 
     def _exec_place_command(self, command: Command) -> None:
+        """
+        Run a PLACE command
+
+        :param command: Command to execute
+        :raises InvalidMovementException: If the place position is invalid
+        """
+
         # Convert parameters into a valid position in map
         robot_pos = MapPosition(x=command.parameters["x"], y=command.parameters["y"])
         robot_direction = DirectionEnum.from_str(command.parameters["f"])
@@ -116,6 +132,12 @@ class RobotSimulator():
         self.logger.info(f"Robot placed in {self.robot.get_current_pos()}")
 
     def _exec_move_command(self, command: Command) -> None:
+        """
+        Run a MOVE command
+
+        :param command: Command to execute
+        """
+
         current_robot_pos = self.robot.get_current_pos()
         current_robot_direction = self.robot.get_current_direction()
 
@@ -145,6 +167,12 @@ class RobotSimulator():
         self.logger.info(f"Robot moved to {future_robot_pos} - New Coordinates: {current_robot_pos}")
 
     def _exec_left_command(self, command: Command) -> None:
+        """
+        Run a LEFT command
+
+        :param command: Command to execute
+        """
+
         # NORTH -> WEST , SOUTH -> EAST , EAST -> NORTH , WEST -> SOUTH
         current_robot_direction = self.robot.get_current_direction()
 
@@ -161,6 +189,12 @@ class RobotSimulator():
         self.logger.info(f"Robot rotated to the LEFT - New Direction: {self.robot.get_current_direction()}")
 
     def _exec_right_command(self, command: Command) -> None:
+        """
+        Run a RIGHT command
+
+        :param command: Command to execute
+        """
+
         # NORTH -> EAST , SOUTH -> WEST , EAST -> SOUTH , WEST -> NORTH
         current_robot_direction = self.robot.get_current_direction()
 
@@ -177,6 +211,12 @@ class RobotSimulator():
         self.logger.info(f"Robot rotated to the RIGHT - New Direction: {self.robot.get_current_direction()}")
 
     def _exec_report_command(self, command: Command, out_file: str) -> None:
+        """
+        Run a REPORT command
+
+        :param command: Command to execute
+        :param out_file: File to which the simulator will write the output of the simulation
+        """
         with open(file=out_file, mode="a+") as out_f:
             robot_current_pos = self.robot.get_current_pos()
             robot_current_direction = self.robot.get_current_direction()
@@ -187,6 +227,13 @@ class RobotSimulator():
             out_f = out_f.write(f"{out_msg}\n")
 
     def _run_simulation_step(self, command: Command, out_file: str) -> None:
+        """
+        Run a single step of the simulation
+
+        :param command: Command to execute
+        :param out_file: File to which the simulator will write the output of the simulation
+        :raises InvalidCommandException: If the command is not recognized 
+        """
         match command.command_type:
             case CommandTypeEnum.PLACE:
                 self._exec_place_command(command=command)
@@ -203,7 +250,13 @@ class RobotSimulator():
                 self.logger.error(msg)
                 raise InvalidCommandException(msg)
 
-    def run_simulation(self, sim_commands_file: str, out_file: str):
+    def run_simulation(self, sim_commands_file: str, out_file: str) -> None:
+        """
+        Run a simulation from a file and write the output to a file
+
+        :param sim_commands_file: File with commands
+        :param out_file: File to which the simulator will write the output of the simulation
+        """
         # Load commands from file
         commands = self._parse_commands_file(sim_commands_file=sim_commands_file)
 

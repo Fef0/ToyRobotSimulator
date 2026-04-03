@@ -19,15 +19,16 @@ class Map:
         # Creates an empty map (0 means empty, 1 means occupied)
         self.map = [[0] * length] * width
     
-    def is_position_valid(self, position: MapPosition):
+    def is_position_valid(self, position: MapPosition) -> bool:
         """
         Checks the validity of a given position
 
         :param position: Position to check
+        :return: True if the provided position is valid, False otherwise
         """
         return 0 <= position.x < self.length and 0 <= position.y < self.width
 
-    def update_map(self, old_robot_pos: MapPosition, new_robot_pos: MapPosition):
+    def update_map(self, old_robot_pos: MapPosition, new_robot_pos: MapPosition) -> None:
         """
         Updates occupancy in the Map
 
@@ -43,6 +44,8 @@ class Map:
     def get_size(self) -> Tuple[int, int]:
         """
         Get map size
+
+        :return: The size of the map as an (length, width) tuple
         """
 
         return self.length, self.width
