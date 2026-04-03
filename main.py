@@ -1,2 +1,12 @@
+from src.simulator.robot import Robot
+from src.simulator.map import Map
+from src.simulator.simulator import RobotSimulator
+from src.enums.enums import DirectionEnum
+
 if __name__ == "__main__":
-    pass
+    robot = Robot("ToyRobot", 0, 0, DirectionEnum.NORTH)
+    map = Map(5, 5)
+
+    robot_simulator = RobotSimulator(robot=robot, map=map, log_file="log.log")
+
+    robot_simulator.run_simulation(sim_commands_file="input.txt", out_file="output.txt")
