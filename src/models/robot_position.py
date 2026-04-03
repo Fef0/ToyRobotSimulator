@@ -2,13 +2,12 @@ from dataclasses import dataclass
 
 
 @dataclass
-class RobotCoordinates:
+class RobotPosition:
     """
-    Coordinates in a 2D space
+    Position of the Robot in a 2D space
 
     :param x: Position on X axis
     :param y: Position on Y axis
     """
     x: int
     y: int
- 
