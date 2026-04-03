@@ -119,15 +119,9 @@ class RobotSimulator():
             self.logger.error(msg)
             raise InvalidMovementException(msg)
 
-        # Save old robot position before updating
-        old_robot_position = self.robot.get_current_pos()
-
         # Update robot position
         self.robot.update_current_pos(position=robot_pos)
         self.robot.update_current_direction(direction=robot_direction)
-
-        # Update map occupancy
-        self.map.update_map(old_robot_pos=old_robot_position, new_robot_pos=self.robot.get_current_pos())
 
         self.logger.info(f"Robot placed in {self.robot.get_current_pos()}")
 

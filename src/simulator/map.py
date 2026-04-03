@@ -16,8 +16,6 @@ class Map:
 
         self.length = length
         self.width = width
-        # Creates an empty map (0 means empty, 1 means occupied)
-        self.map = [[0] * length] * width
     
     def is_position_valid(self, position: MapPosition) -> bool:
         """
@@ -27,19 +25,6 @@ class Map:
         :return: True if the provided position is valid, False otherwise
         """
         return 0 <= position.x < self.length and 0 <= position.y < self.width
-
-    def update_map(self, old_robot_pos: MapPosition, new_robot_pos: MapPosition) -> None:
-        """
-        Updates occupancy in the Map
-
-        :param old_robot_pos: The Robot position before command execution
-        :param new_robot_pos: The Robot position after command execution
-        """
-
-        # Removes the robot from old position
-        self.map[old_robot_pos.x][old_robot_pos.y] = 0
-        # Put the robot into the new positiion
-        self.map[new_robot_pos.x][new_robot_pos.y] = 1
 
     def get_size(self) -> Tuple[int, int]:
         """
