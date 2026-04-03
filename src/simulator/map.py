@@ -1,5 +1,5 @@
 from typing import Tuple
-from models.robot_position import RobotPosition
+from src.models.map_position import MapPosition
 
 
 class Map:
@@ -19,7 +19,15 @@ class Map:
         # Creates an empty map (0 means empty, 1 means occupied)
         self.map = [[0] * length] * width
     
-    def update_map(self, old_robot_pos: RobotPosition, new_robot_pos: RobotPosition):
+    def is_position_valid(self, position: MapPosition):
+        """
+        Checks the validity of a given position
+
+        :param position: Position to check
+        """
+        return 0 <= position.x < self.length and 0 <= position.y < self.width
+
+    def update_map(self, old_robot_pos: MapPosition, new_robot_pos: MapPosition):
         """
         Updates occupancy in the Map
 

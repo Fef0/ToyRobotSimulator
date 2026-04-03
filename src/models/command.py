@@ -1,10 +1,10 @@
 from dataclasses import dataclass
-from enums.command_types_enum import CommandType
+from src.enums.enums import CommandTypeEnum
 from typing import Dict, Any
 
 
 @dataclass
 class Command:
-    command_type: CommandType
+    command_type: CommandTypeEnum
     parameters: Dict[str, Any]
     cmd_id: str

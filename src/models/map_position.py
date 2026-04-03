@@ -2,9 +2,9 @@ from dataclasses import dataclass
 
 
 @dataclass
-class RobotPosition:
+class MapPosition:
     """
-    Position of the Robot in a 2D space
+    Position of an object in a 2D map
 
     :param x: Position on X axis
     :param y: Position on Y axis

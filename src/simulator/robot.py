@@ -1,11 +1,11 @@
-from models.robot_position import RobotPosition
-
+from src.models.map_position import MapPosition
+from src.enums.enums import DirectionEnum
 
 class Robot:
     """
     A Robot in a 2D space
     """
-    def __init__(self, name: str, init_pos_x: int, init_pos_y: int, init_direction: str) -> None:
+    def __init__(self, name: str, init_pos_x: int, init_pos_y: int, init_direction: DirectionEnum) -> None:
         """
         Initialize robot position and direction in a 2D space
 
@@ -15,7 +15,7 @@ class Robot:
         :param init_direction: Initial direction
         """
         self.name = name
-        self.pos = RobotPosition(
+        self.pos = MapPosition(
             x=init_pos_x,
             y=init_pos_y,
         )
@@ -28,14 +28,16 @@ class Robot:
         """
         return self.name
 
-    def get_current_pos(self) -> RobotPosition:
+    def get_current_pos(self) -> MapPosition:
         """
         Returns current Robot position in space
         """
-        
         return self.pos
+    
+    def get_current_direction(self) -> DirectionEnum:
+        return self.direction
 
-    def update_current_pos(self, pos_x: int, pos_y: int) -> None:
+    def update_current_pos(self, position: MapPosition) -> None:
         """
         Updates current Robot position in space
 
@@ -43,12 +45,9 @@ class Robot:
         :param pos_y: The new Robot position on Y axis
         """
 
-        self.pos = RobotPosition(
-            x=pos_x,
-            y=pos_y
-        )
+        self.pos = position
 
-    def update_current_direction(self, direction: str) -> None:
+    def update_current_direction(self, direction: DirectionEnum) -> None:
         """
         Updates current Robot facing direction
         
