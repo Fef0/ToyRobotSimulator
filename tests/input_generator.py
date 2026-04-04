@@ -16,10 +16,10 @@ map_size_w = 5
 place_max_coord_x = map_size_l - 1
 place_max_coord_y = map_size_w - 1
 
-output_size = 10
+output_size = 50
 
 # A fast half-hacked way to generate new inputs for testing
-output_file_path = os.path.join(os.path.dirname(__file__), '..', 'input.txt')
+output_file_path = os.path.join(os.path.dirname(__file__), '..', 'data/input.txt')
 with open(output_file_path, "w") as out:
     for i in range(output_size):
         # Choose a random command and direction
