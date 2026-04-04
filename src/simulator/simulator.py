@@ -263,7 +263,7 @@ class RobotSimulator():
             self.logger.info(f"Executing command {command}")
             # If the robot has not been placed we skip all commands that are not a PLACE one
             if (not has_been_placed and command.command_type != CommandTypeEnum.PLACE):
-                self.logger.warning(f"No PLACE command has been executed yet, skipping {command.command_type} command")
+                self.logger.warning(f"No PLACE command has been executed yet, skipping {command} command")
                 continue
             # We flag the place once we receive the command
             elif (not has_been_placed and command.command_type == CommandTypeEnum.PLACE):
