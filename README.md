@@ -22,6 +22,15 @@ RIGHT
 REPORT
 ```
 
+# Valid directions in PLACE command
+
+```
+NORTH
+SOUTH
+EAST
+WEST
+```
+
 ## Output format
 
 ```
