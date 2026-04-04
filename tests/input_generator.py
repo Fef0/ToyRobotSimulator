@@ -5,7 +5,7 @@ import sys
 # which is ugly but works for rapid testing
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.enums.enums import CommandTypeEnum, DirectionEnum
+from src.enums import CommandTypeEnum, DirectionEnum
 from src.models.map_position import MapPosition
 import random
 
