@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from src.enums.enums import CommandTypeEnum
+from src.enums import CommandTypeEnum
 from typing import Dict, Any
 
 

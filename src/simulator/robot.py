@@ -1,5 +1,5 @@
 from src.models.map_position import MapPosition
-from src.enums.enums import DirectionEnum
+from src.enums import DirectionEnum
 
 
 class Robot:

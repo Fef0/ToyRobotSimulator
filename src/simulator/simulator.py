@@ -4,8 +4,8 @@ from src.simulator.robot import Robot
 from src.models.map_position import MapPosition
 from src.simulator.map import Map
 from src.models.command import Command
-from src.enums.enums import CommandTypeEnum, DirectionEnum
-from src.exceptions.exceptions import InvalidCommandException, InvalidMovementException
+from src.enums import CommandTypeEnum, DirectionEnum
+from src.exceptions import InvalidCommandException, InvalidMovementException
 from uuid import uuid4
 
 
