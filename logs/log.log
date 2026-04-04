@@ -1,149 +1,154 @@
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='f8372c81-cf51-45e8-84ac-47ade4b08ece')
-2026-04-04 13:04 - WARNING - No PLACE command has been executed yet, skipping Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='f8372c81-cf51-45e8-84ac-47ade4b08ece') command
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 1, 'f': 'EAST'}, cmd_id='54a51698-534d-4beb-95eb-c44dfd96a450')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=3, y=1)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='dd0b549f-26b4-4916-a21c-674b97c529b0')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='79ff910f-d9ac-4e31-887b-81aae87aaa93')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='ddb33bab-153d-49c2-81c0-01545b499894')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 1, 'y': 0, 'f': 'SOUTH'}, cmd_id='c870c1f0-4791-4539-9162-bcc2f0ec4f88')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=1, y=0)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=0) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='c5bd1025-9e29-4d14-b2f7-294d81ba7e5c')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=0) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='6be397b7-cb2e-41c1-a72f-addd41840eb5')
-2026-04-04 13:04 - INFO - Report: 1,0,WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=0) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='5b8bde18-d30e-4d81-8ab4-6581b789de67')
-2026-04-04 13:04 - INFO - Robot moved to MapPosition(x=0, y=0) - New Coordinates: MapPosition(x=1, y=0)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=0) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 4, 'f': 'NORTH'}, cmd_id='1a1abf7a-c75b-465d-998e-d34ca18fafb7')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=0, y=4)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='6a76519e-146f-472a-ac1a-ff7689cc88c6')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='605709ef-9fd2-46ed-8252-ca86ca90e992')
-2026-04-04 13:04 - INFO - Report: 0,4,WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='d3d5eb61-ae24-4997-b32e-d267c313825f')
-2026-04-04 13:04 - INFO - Report: 0,4,WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='2eea6804-a968-4745-983e-a568d6ba29ea')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='b734c9ad-1dc1-4fe6-8ae2-1dff82b6600b')
-2026-04-04 13:04 - INFO - Report: 0,4,NORTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='b92b0dc1-640a-48be-a6ff-7b7028dc4b46')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='f5ee7346-ede3-4aa8-982b-fa21ad25aeff')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='8faf473d-684a-4f19-9f91-73a6a1fa970c')
-2026-04-04 13:04 - INFO - Robot moved to MapPosition(x=0, y=3) - New Coordinates: MapPosition(x=0, y=4)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='9d856c90-1daa-41c5-b07c-2658a21c03b0')
-2026-04-04 13:04 - INFO - Report: 0,3,SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='7c1dbf99-903e-4285-a510-9143716494e1')
-2026-04-04 13:04 - INFO - Report: 0,3,SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='85d68b0c-3523-4799-a41b-4cb34008be70')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 3, 'f': 'WEST'}, cmd_id='16634585-ea39-4339-8494-cbe8395f32cc')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=3, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=3) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='0fac7aac-ea0e-4bdd-b266-69b9b3c77c06')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=3) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 1, 'y': 3, 'f': 'EAST'}, cmd_id='8d5fb6e6-521c-4068-8a3a-9f401024bd78')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=1, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 1, 'f': 'SOUTH'}, cmd_id='f8c25c8d-b0be-4df3-a17c-178af2e2473b')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=0, y=1)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='683e186b-cf67-4621-83ad-9b94a4545b1e')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='dca100fd-18ec-42df-b879-77d34950a4b6')
-2026-04-04 13:04 - WARNING - Robot Position MapPosition(x=-1, y=1) is not valid, skipping it
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='5f41af85-7ec8-4f44-8400-613ffeebbf0e')
-2026-04-04 13:04 - INFO - Report: 0,1,WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 1, 'f': 'WEST'}, cmd_id='cd3fea2b-a399-470d-89fe-18e9456e15d1')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=0, y=1)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='dd603538-3d4f-431f-98e1-7bb03638809c')
-2026-04-04 13:04 - INFO - Report: 0,1,WEST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='0b0a4885-94ee-4f9a-89e4-3291d18c32ae')
-2026-04-04 13:04 - WARNING - Robot Position MapPosition(x=-1, y=1) is not valid, skipping it
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='51e3e5b9-61d5-45fe-95ba-3684943d281e')
-2026-04-04 13:04 - WARNING - Robot Position MapPosition(x=-1, y=1) is not valid, skipping it
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='d3788eeb-d851-4405-a67c-8b5b8a8c368f')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='d25ba1ef-392b-48e4-85e9-7ccee72d6e19')
-2026-04-04 13:04 - INFO - Report: 0,1,SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 3, 'f': 'EAST'}, cmd_id='033beff6-a1f7-42f9-a859-1d69f3a9a773')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=0, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='95a5a95e-3225-4bd6-a197-3b6c07c0890c')
-2026-04-04 13:04 - INFO - Robot moved to MapPosition(x=1, y=3) - New Coordinates: MapPosition(x=0, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='fed18116-99e6-4820-8056-c916f877770a')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='664748ed-5d71-48ff-af30-b3599b134cce')
-2026-04-04 13:04 - INFO - Robot moved to MapPosition(x=1, y=4) - New Coordinates: MapPosition(x=1, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=4) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='5d259bb5-4eab-4261-b489-2576bb83eeab')
-2026-04-04 13:04 - WARNING - Robot Position MapPosition(x=1, y=5) is not valid, skipping it
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=4) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 1, 'y': 1, 'f': 'NORTH'}, cmd_id='7718512e-279f-4c6e-bb40-2a5408d8d37f')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=1, y=1)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=1) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 0, 'f': 'SOUTH'}, cmd_id='06eebdfe-a5ff-435c-831a-7f2b15a40882')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=3, y=0)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=0) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 2, 'y': 1, 'f': 'NORTH'}, cmd_id='ab2341c6-b847-4abe-9a1f-b042bbdac56b')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=2, y=1)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=2, y=1) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 3, 'f': 'WEST'}, cmd_id='76d00e16-f932-48ac-bb08-557a423f75a1')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=0, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.WEST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='d5ee165a-2fb3-4c90-84cc-ec44f019230f')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='00868c40-ca7e-4e43-aaff-63133dfa65e3')
-2026-04-04 13:04 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='c083fadb-bfa9-452e-ad1d-48773f41b813')
-2026-04-04 13:04 - INFO - Robot moved to MapPosition(x=1, y=3) - New Coordinates: MapPosition(x=0, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.EAST
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='47136388-eee2-4654-b288-d54c90645997')
-2026-04-04 13:04 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='35ccb6ea-32f5-43f4-bba5-c1ac748c6816')
-2026-04-04 13:04 - INFO - Robot moved to MapPosition(x=1, y=4) - New Coordinates: MapPosition(x=1, y=3)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=1, y=4) - Robot Direction: DirectionEnum.NORTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 1, 'f': 'SOUTH'}, cmd_id='e82d9d26-b774-4dba-9298-14d14a4fcdbc')
-2026-04-04 13:04 - INFO - Robot placed in MapPosition(x=3, y=1)
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.SOUTH
-2026-04-04 13:04 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='d95ace4c-72e5-4b42-918b-fc40aac6de23')
-2026-04-04 13:04 - INFO - Report: 3,1,SOUTH
-2026-04-04 13:04 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - ERROR - Raw Command DOUBLE-FLIP does not exist
+2026-04-04 13:18 - ERROR - Invalid Command DOUBLE-FLIP, skipping it
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='5c674e9e-d206-4c73-990c-53bbacbc2434')
+2026-04-04 13:18 - WARNING - No PLACE command has been executed yet, skipping Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='5c674e9e-d206-4c73-990c-53bbacbc2434') command
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 1, 'f': 'EAST'}, cmd_id='00a7447f-d8f5-472a-bbab-cbbbc6cbc438')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=3, y=1)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='a70d8628-b3ac-4d55-aa75-edf191c8c31d')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='0444b1bb-9a89-4b37-86ea-36be6b45dbd1')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 6, 'y': 6, 'f': 'EAST'}, cmd_id='81cc558f-c749-4c26-bec5-3891df5bcdcb')
+2026-04-04 13:18 - ERROR - Place Coordinates MapPosition(x=6, y=6) are invalid
+2026-04-04 13:18 - ERROR - Invalid Movement for command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 6, 'y': 6, 'f': 'EAST'}, cmd_id='81cc558f-c749-4c26-bec5-3891df5bcdcb'), skipping it
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='fc9ce1f4-3ad5-453c-be0f-efae6cc749ff')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 1, 'y': 0, 'f': 'SOUTH'}, cmd_id='8bfb42cb-455d-42a2-a77d-8aa54e69605a')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=1, y=0)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=0) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='7d6ccf83-3dcc-411a-8436-6858f1d2e07e')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=0) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='a13023ad-8b4f-4bc1-9442-40ca34b9715f')
+2026-04-04 13:18 - INFO - Report: 1,0,WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=0) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='839112cb-f430-4f55-aa7b-ebedbaecf4e0')
+2026-04-04 13:18 - INFO - Robot moved to MapPosition(x=0, y=0) - New Coordinates: MapPosition(x=1, y=0)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=0) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 4, 'f': 'NORTH'}, cmd_id='19ec5a83-571b-4b22-add4-fa4da1b2eef9')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=0, y=4)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='23e934d3-dc54-4fe5-9dd3-0d16f6dc7a0f')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='eff3d82a-8629-4876-8a11-00bfb427e96a')
+2026-04-04 13:18 - INFO - Report: 0,4,WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='653a3cf9-52cf-4571-bde4-c6be27db7d39')
+2026-04-04 13:18 - INFO - Report: 0,4,WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='35fc33c3-cdbf-49a6-9d25-a89b748baa3d')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='42e59ef4-0987-4c77-ba1e-df871bed03bf')
+2026-04-04 13:18 - INFO - Report: 0,4,NORTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='388d5fb5-c516-42b4-a93b-cd35987fe5b9')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='155eec55-dd7b-4407-b82c-ec9dc9201f26')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=4) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='04fe714e-e741-4ae8-bcf4-321084efd1b5')
+2026-04-04 13:18 - INFO - Robot moved to MapPosition(x=0, y=3) - New Coordinates: MapPosition(x=0, y=4)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='6fe779cc-4d32-4200-902a-c5779e731c1a')
+2026-04-04 13:18 - INFO - Report: 0,3,SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='28f93647-1da8-4d50-85ed-1b490ebad376')
+2026-04-04 13:18 - INFO - Report: 0,3,SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='dbb44512-74d7-4d9b-9b9e-0c6c53338338')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 3, 'f': 'WEST'}, cmd_id='693ce69e-8c81-41c1-919d-829c15610237')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=3, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=3) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='5a289bcf-2863-464f-8a28-dfe4089c9807')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=3) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 1, 'y': 3, 'f': 'EAST'}, cmd_id='8b5fd9a3-6c43-4d81-8912-b3489c3a6592')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=1, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 1, 'f': 'SOUTH'}, cmd_id='89833e2e-d846-49ad-90b5-1e9ea825db37')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=0, y=1)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='a1d9896e-ce6f-4834-bf2b-6653982a2f4c')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='71e437c4-7b23-4aa5-934e-93fbea728f2e')
+2026-04-04 13:18 - WARNING - Robot Position MapPosition(x=-1, y=1) is not valid, skipping it
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='3a4d0247-cc6f-4183-8bb0-4c819c881eac')
+2026-04-04 13:18 - INFO - Report: 0,1,WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 1, 'f': 'WEST'}, cmd_id='0a777231-3b15-44a7-afd5-86c6f0fc9ef5')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=0, y=1)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='c71c4c6d-8cba-4995-b854-a32567d01064')
+2026-04-04 13:18 - INFO - Report: 0,1,WEST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='3c04802d-68fa-417c-8c4a-5f7b18d9fe05')
+2026-04-04 13:18 - WARNING - Robot Position MapPosition(x=-1, y=1) is not valid, skipping it
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='b595c81a-f8a8-4b74-b386-0d956a35b940')
+2026-04-04 13:18 - WARNING - Robot Position MapPosition(x=-1, y=1) is not valid, skipping it
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='ce87651a-e49f-4ae0-a31d-5f8b9ad71bfa')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='f191a34a-0b4a-4fab-9869-c2eab58eec4b')
+2026-04-04 13:18 - INFO - Report: 0,1,SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=1) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 3, 'f': 'EAST'}, cmd_id='f62c8d18-974a-482a-8fdb-65c98d391baf')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=0, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='7036e8ae-5a49-42d7-b346-fb05cd193561')
+2026-04-04 13:18 - INFO - Robot moved to MapPosition(x=1, y=3) - New Coordinates: MapPosition(x=0, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='f607c0f2-ffa6-4c09-9055-ab0d0e0cc795')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='7807d02a-2252-4025-8e36-0edf2d80510f')
+2026-04-04 13:18 - INFO - Robot moved to MapPosition(x=1, y=4) - New Coordinates: MapPosition(x=1, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=4) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='a98a9cba-933a-4675-8e7b-349ac3eff743')
+2026-04-04 13:18 - WARNING - Robot Position MapPosition(x=1, y=5) is not valid, skipping it
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=4) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 1, 'y': 1, 'f': 'NORTH'}, cmd_id='449a57ea-e58f-43aa-bd3c-d351fd8c94a5')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=1, y=1)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=1) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 0, 'f': 'SOUTH'}, cmd_id='1a74ce97-2d30-4038-82b0-0c069288e0c6')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=3, y=0)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=0) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 2, 'y': 1, 'f': 'NORTH'}, cmd_id='1fedbb80-abc0-4612-89cb-e1373458be6c')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=2, y=1)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=2, y=1) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 0, 'y': 3, 'f': 'WEST'}, cmd_id='2fd62dee-8c88-49b6-bafa-8e391da1a227')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=0, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.WEST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='91795b4e-fbf1-4a60-9a06-39b5401394a3')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.RIGHT: 4>, parameters={}, cmd_id='1afd03e5-4821-44f9-8b75-35b877ec36da')
+2026-04-04 13:18 - INFO - Robot rotated to the RIGHT - New Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=0, y=3) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='a3a61d52-ff51-48e7-8b2b-4d260eb4dd06')
+2026-04-04 13:18 - INFO - Robot moved to MapPosition(x=1, y=3) - New Coordinates: MapPosition(x=0, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.EAST
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.LEFT: 3>, parameters={}, cmd_id='1983f16c-7aeb-41cc-bb35-b88f2fa0da59')
+2026-04-04 13:18 - INFO - Robot rotated to the LEFT - New Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=3) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.MOVE: 2>, parameters={}, cmd_id='31f732cb-d0f0-4a95-a018-d32f967a2a93')
+2026-04-04 13:18 - INFO - Robot moved to MapPosition(x=1, y=4) - New Coordinates: MapPosition(x=1, y=3)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=1, y=4) - Robot Direction: DirectionEnum.NORTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.PLACE: 1>, parameters={'x': 3, 'y': 1, 'f': 'SOUTH'}, cmd_id='7dcf953a-311a-43f0-be3a-ec8f5f02fba1')
+2026-04-04 13:18 - INFO - Robot placed in MapPosition(x=3, y=1)
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.SOUTH
+2026-04-04 13:18 - INFO - Executing command Command(command_type=<CommandTypeEnum.REPORT: 5>, parameters={}, cmd_id='c42c6d11-60e1-4991-b95e-e548085800d5')
+2026-04-04 13:18 - INFO - Report: 3,1,SOUTH
+2026-04-04 13:18 - INFO - Robot position: MapPosition(x=3, y=1) - Robot Direction: DirectionEnum.SOUTH

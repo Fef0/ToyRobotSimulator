@@ -94,9 +94,12 @@ class RobotSimulator():
         with open(file=sim_commands_file) as sim_commands_f:
             lines = sim_commands_f.readlines()
             for raw_cmd in lines:
-                command = self._parse_raw_command(raw_command=raw_cmd)
-
-                commands.append(command)
+                try:
+                    command = self._parse_raw_command(raw_command=raw_cmd)
+                    commands.append(command)
+                except InvalidCommandException:
+                    self.logger.error(f"Invalid Command {raw_cmd.strip()}, skipping it")
+                    continue
 
         # Return the parsed result
         return commands
@@ -270,7 +273,14 @@ class RobotSimulator():
                 has_been_placed = True
 
             # Now we can execute the command
-            self._run_simulation_step(command=command, out_file=out_file)
+            try:
+                self._run_simulation_step(command=command, out_file=out_file)
+            except InvalidMovementException:
+                self.logger.error(f"Invalid Movement for command {command}, skipping it")
+                continue
+            except InvalidCommandException:
+                self.logger.error(f"Invalid Command for command {command}, skipping it")
+                continue
 
             # Log Robot new position
             self.logger.info(f"Robot position: {self.robot.get_current_pos()} - Robot Direction: {self.robot.get_current_direction()}")
